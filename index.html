@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learnin Js</title>
 </head>
-<body>
-    <button id="btn">
-        Click Here
-    </button>
-    <script>
-        //  console.log("Hello world")  
-        const button = document.getElementById("btn")
 
-        button.addEventListener("click",()=>{
-            alert("Hello Everyone")
-        })
-    </script>   
+<body>
+    <div id="container">
+        <form action="">
+            <span>E-mail</span>
+            <input type="email" name="email" id="email"><br>
+            <span>password</span>
+            <input type="password" name="password" id="password"><br>
+            <span>Sex</span>
+            <select name="Sex" id="Sex">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            <span>Role</span>
+            <input type="radio" name="Admin" id="">
+            <span>Admin</span>
+            <input type="radio" name="User" id="">
+            <span>User</span>
+            <br>
+            <span>Permissions</span>
+
+            <span>Perms1</span>
+            <input type="checkbox" name="perms1" id="">
+            <span>Perms2</span>
+            <input type="checkbox" name="perms2" id="">
+            <span>Perms3</span>
+            <input type="checkbox" name="perms3" id="">
+            <span>Perms4</span>
+            <input type="checkbox" name="perms4" id="">
+            <span>Perms5</span>
+            <input type="checkbox" name="perms5" id="">
+            <span>Perms6</span>
+            <input type="checkbox" name="perms6" id="">
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
 </body>
+
 </html>
